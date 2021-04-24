@@ -5,10 +5,116 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PIZZA BASE</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 </head>
 <body>
+    <div class="container">
+    <div class="jumbotron">
+        <img src="../images/image1.png" alt="" style="max-width:20%;">
     <h1>WELCOME TO PIZZA BASE</h1>
     <P>Where we offer the best and quality pizza for our customers</P>
-    
+    <div class="nav">
+        <div class="nav-link">
+        <h1>
+            <ul>
+                <li> <a href="index.html">Menu</a></li>
+                <li> <a href="About.html">About us</a></li>
+                <li> <a href="Order.html">Order Here</a></li>
+                <li> <a href="Contact.html">contact us</a></li>
+            
+            </ul>
+        </h1>
+    </div>
+
+    </div>
+</div>
+</div>
+<div class="menu">
+    <div class="card">
+        <div class="card-body">
+            <h4>PIZZA MENU</h4>
+            <ul>
+                <li>  <img src="images/image4.jpg" alt="" style="max-width: 10%;">
+           <strong>CHICKEN BBQ</strong>-Pizza creation was made with BBQ sauce, chicken, cilantro, red onions, and fontina cheese </li>
+                    <br><br>
+                <li>  <img src="images/image6.jpg" alt="" style="max-width: 10%;">
+                    <strong>  pepperloni</strong>- The salty and slightly spicy taste holds its own against waves of melty, gooey cheese and gets ever-so-slightly crisped </li>
+                    <br><br>
+                <li>  <img src="images/image3.jpg" alt="" style="max-width: 10%;">
+                    <strong>  Margherita</strong>- This Neopaltian-style pizza has thin crust, fresh tomato sauce, fresh mozzarella cheese, and just a few leaves of basil </li>
+                    <br><br>
+                <li> <img src="images/image7.jpg" alt="" style="max-width: 10%;">
+                    <strong>Hawaiian pizza </strong>- A combination of tomato sauce, cheese, ham, and pineapple.That is as beloved as it is despised still makes our list of iconic pizzas</li>
+                    <br><br>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+<div class="orderhere">
+    <h2>ORDER HERE</h2>
+<form class="form-group" id="custom-pizza">
+    <div class="order">
+    <div class="row pt-5">
+    <div class="col-md-4 col-xs-9">
+         <div class="card">
+         <img src="images/image6.jpg" class="card-img-top" alt="..." style="max-width:100%;">
+         <div class="card-body">
+                        <h5 class="card-title">Sizes of pizza</h5>
+                        <p class="card-text">Choose the size of Pizza:</p>
+                        <select required class="form-control" id="size">
+                            <option></option>
+                            <option value="small-pizza">small (500)</option>
+                            <option value="medium-pizza">medium (750)</option>
+                            <option value="large-pizza">large (1000)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-xs-9">
+                <div class="card">
+                    <img src="images/image3.jpg" class="card-img-top" alt="..." style="max-width:100%;">
+                    <div class="card-body">
+                        <h5 class="card-title">Crust</h5>
+                        <p class="card-text">Choose a crust:</p>
+                        <select required class="form-control" id="crust">
+                            <option></option>
+                            <option value="Gulet free">gulet free (100)</option>
+                            <option value="thick">Thick (150)</option>
+                            <option value="stuffed">Stuffed (150)</option>
+                            <option value="crispy">Crispy (150)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+ <div class="col-md-4 col-xs-9">
+<div class="card">
+<img src="images/image5.jpg" class="card-img-top" alt="..." style="max-width:100%;">
+<div class="card-body">
+    <h5 class="card-title">Toppings</h5>
+      <p class="card-text">Choose toppings:</p>
+     <select required class="form-control" id="toppings">
+                            <option></option>
+                            <option value="tomatoes">tomatoes (100)</option>
+                            <option value="beef">beef (150)</option>
+                            <option value="Onions/bacon">onions/Bacon (200)</option>
+                            <option value="pepper">pepper (150)</option>
+                            <option value="chicken">Chicken (150)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><br><br>
+<button type="submit" class="order-button btn btn-blue" id="submit-pizza">Place Order</button>
+<input type="number" id="amount" placeholder="Number of pizzas"required>
+
+</form>
+
 </body>
+<script src="js/scripts.js"></script>
+<script src="js/jquery-3.1.1.js"></script>
 </html>
