@@ -4559,7 +4559,7 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color:brown;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -5088,7 +5088,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
   padding: 3rem 2rem;
   margin-bottom: 2rem;
-  background-color: black;
+  background-color: brown;
   border-radius: 0.3rem;
   
 }

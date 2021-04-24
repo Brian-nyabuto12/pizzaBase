@@ -5,6 +5,9 @@
     font-family: fantasy;
    
 }
+.menu{
+    background-color: brown;
+}
  
 
 body{
@@ -22,4 +25,12 @@ body{
 }
 .container p{
     font-size: small;
+}
+.orderhere{
+    text-align: center;
+    color:blue;
+    font-family: fantasy;
+}
+.order-button{
+    text-align: center;
 }
