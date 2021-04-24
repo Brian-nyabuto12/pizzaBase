@@ -5,10 +5,11 @@
     font-size: larger;
    
 }
-.menu h4{
-    background-color: brown;
+ .menu h1{
+     color: blue;
     text-align: center;
-    font-size: large;
+   font-size: x-large;
+   font-family: fantasy;
     
 }
  
