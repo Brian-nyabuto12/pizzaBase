@@ -1,0 +1,25 @@
+.jumbotron{
+    text-align: center;
+    color: yellow;
+    font-style: italic;
+    font-family: fantasy;
+   
+}
+ 
+
+body{
+    background-image: url(../images/image14.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+
+
+}
+.container{
+    color: yellow;
+    text-align: center;
+     font-family: fantasy;
+     font-size: xx-large;
+}
+.container p{
+    font-size: small;
+}
