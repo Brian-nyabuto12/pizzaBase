@@ -5088,7 +5088,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
   padding: 3rem 2rem;
   margin-bottom: 2rem;
-  background-color: brown;
+  background-image: url(../images/image2.png);
   border-radius: 0.3rem;
   
 }
