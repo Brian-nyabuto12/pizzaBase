@@ -54,3 +54,12 @@ body{
       transform: translateY(-45px);
     }
   }
+  #amount{
+    float: inherit;
+    width:30%;
+    background-color: white;
+  }
+  #submit-pizza {
+    float: right;
+    margin-right: 700px;
+  }
