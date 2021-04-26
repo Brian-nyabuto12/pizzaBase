@@ -1,17 +1,32 @@
-.jumbotron .container{
-    text-align: center;
-    color:black;
-    font-family: fantasy;
-    font-size: larger;
-   
+ jumbotron>p.page-header, #price-content>h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+
 }
+.jumbtron {
+  margin-right: 700px;
+  background-color: inherit;
+  color:  black;
+  margin-top: 60px;
+  text-align: center;
+  font: larger;
+}
+.top {
+  font-size: xx-large;
+  background-color: black;
+  color:blue;
+  height: 200px;
+    border-bottom: 5px solid yellow;
+  }
+
  .menu h1{
-     color: blue;
+     color:yellow;
     text-align: center;
    font-size: x-large;
    font-family: fantasy;
     
 }
+
 
  
 
@@ -41,6 +56,7 @@ body{
 }
 .mouse {
     animation: bounce 2s infinite;
+   text-align: center;
   
   }
   
@@ -72,7 +88,7 @@ body{
   }
   #price-content {
     text-align: center;
-    color:blue;
+    color:yellow;
 }
 #order-details {
   border: 2px solid black;
@@ -81,7 +97,7 @@ body{
   padding-top: 10px;
   padding-right: 50px;
   border-style: block;
-  color:blue;
+  color: yellow;
 }
 
 #order-details>h5, h5 {

@@ -45,9 +45,9 @@ $(document).ready(function(){
     this.deliveryAddress = (address);
   }
   Order.prototype.finalCost = function(){
-    var cartTotalPrice = [];
+    var trolleyTotalPrice = [];
     for (var arrayElement = 0; arrayElement < totalPriceArray.length; arrayElement++) {
-      cartTotalPrice += totalPriceArray[arrayElement];
+      trolleyTotalPrice += totalPriceArray[arrayElement];
     }
     return trolleyTotalPrice;
   };
