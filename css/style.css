@@ -1,4 +1,4 @@
-.jumbotron{
+.jumbotron .container{
     text-align: center;
     color:black;
     font-family: fantasy;
@@ -23,7 +23,7 @@ body{
 
 }
 .container{
-    color: yellow;
+    color:black;
     text-align: center;
      font-family: fantasy;
      font-size: xx-large;
