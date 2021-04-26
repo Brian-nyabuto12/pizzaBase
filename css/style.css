@@ -12,6 +12,7 @@
    font-family: fantasy;
     
 }
+
  
 
 body{
@@ -86,11 +87,8 @@ body{
 #order-details>h5, h5 {
     font-family: 'Kaushan Script', cursive;
 }
-
-
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+.site{
+  color: black;
+  display: -ms-flexbox;
 }
 
