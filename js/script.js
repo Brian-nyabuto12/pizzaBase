@@ -49,7 +49,7 @@ $(document).ready(function(){
     for (var arrayElement = 0; arrayElement < totalPriceArray.length; arrayElement++) {
       cartTotalPrice += totalPriceArray[arrayElement];
     }
-    return cartTotalPrice;
+    return trolleyTotalPrice;
   };
   $(".btn.check-out").click(function() {
   });
