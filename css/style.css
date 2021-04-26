@@ -55,11 +55,42 @@ body{
     }
   }
   #amount{
+    margin-top: 40px;
+    margin-left: 500px;
     float: inherit;
     width:30%;
     background-color: white;
   }
   #submit-pizza {
     float: right;
-    margin-right: 700px;
+    margin-right: 600px;
+    color:white;
   }
+  #container{
+    max-width: 100%;
+  }
+  #price-content {
+    text-align: center;
+    color:blue;
+}
+#order-details {
+  border: 2px solid black;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-top: 10px;
+  padding-right: 50px;
+  border-style: block;
+  color:blue;
+}
+
+#order-details>h5, h5 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
