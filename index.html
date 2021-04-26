@@ -144,6 +144,7 @@
 </div>
 </div>
 </div>
+</body>
 
 <script src="js/jquery-3.1.1.js"></script>
 
@@ -196,9 +197,9 @@ $(document).ready(function(){
     this.deliveryAddress = (address);
   }
   Order.prototype.finalCost = function(){
-    var cartTotalPrice = [];
+    var trolleryTotalPrice = [];
     for (var arrayElement = 0; arrayElement < totalPriceArray.length; arrayElement++) {
-      cartTotalPrice += totalPriceArray[arrayElement];
+      trolleyTotalPrice += totalPriceArray[arrayElement];
     }
     return cartTotalPrice;
   };
@@ -213,10 +214,10 @@ $(document).ready(function(){
     var newPizzaOrder = new Order(size, crust, toppings);
     newPizzaOrder.pizzaCost();
     totalPriceArray.push(newPizzaOrder.pizzaPrice);
-    // $("#pizza-details").hide();
+    
     $("#final-cost").text(newPizzaOrder.finalCost());
     $("#pizza-details").append("<ul><li>" + pizzaDetails + "</li></ul>");
-    // $("#size, #crust, #toppings,").val("");
+   
   });
   $("#submit-pizza").click(function(){
     $("#deliver").toggle();
@@ -236,6 +237,6 @@ $(document).ready(function(){
 
 </script>
 <script src="js/jquery-3.1.1.js"></script>
-</body> 
+
 
 </html>
